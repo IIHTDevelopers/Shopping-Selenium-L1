@@ -1,6 +1,6 @@
 {
 	"dev":{
-		"url":"https://www.facebook.com/",
+		"url":"http://practice.automationtesting.in/",
 		"pageloadtimeout":"90",
 		"implicitwaittime":"30"
 	}
