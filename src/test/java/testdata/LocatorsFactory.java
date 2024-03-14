@@ -7,12 +7,10 @@ import org.openqa.selenium.WebElement;
 import pages.StartupPage;
 
 public class LocatorsFactory extends StartupPage {
-	
-	
 		By shopIconButton = By.xpath("//a[.='Shop']"); 
 		By androidProductCategory = By.xpath("//a[.='Android']"); 
 		By newArrivalButton = By.xpath("//h2[.='new arrivals']"); 
-		By seleniumRubyProduct = By.xpath("//h3[contains(text(),'Selenium Ruby')]/../../../..//a[@class=\"woocommerce-LoopProduct-link\"]"); 
+		By seleniumRubyProduct = By.xpath("//h3[contains(text(),'Selenium Ruby')]/../../../..//a[@class='woocommerce-LoopProduct-link']"); 
 		By seleniumRubyTitle = By.xpath("//h1[.='Selenium Ruby']"); 
 		By viewBasketButton = By.xpath("//a[.='View Basket']"); 
 
@@ -21,9 +19,7 @@ public class LocatorsFactory extends StartupPage {
 		 
 		public LocatorsFactory(WebDriver driver) {
 			super(driver);
-			// TODO Auto-generated constructor stub
 		}
-		
 		
 
 
