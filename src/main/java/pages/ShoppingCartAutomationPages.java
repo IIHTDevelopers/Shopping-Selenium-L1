@@ -141,6 +141,66 @@ public class ShoppingCartAutomationPages extends StartupPage
 
 	}
 	
+	/**@Test11
+	 * about this method seleniumrubyIsPresentInsideTheCartPage() 
+	 * @param : null
+	 * @description :seleniumruby Is PresentInside The CartPage
+	 * @return : return true if product seleniumRuby Inside The Basket Page  else false
+	 * @author : Yaksha
+	 */
+	public Boolean seleniumrubyIsPresentInsideTheCartPage() throws Exception {
+		return null;
+	}
+	
+	/**@Test12
+	 * about this method verifythatSeleniumRubyProductPriceIs500() 
+	 * @param : null
+	 * @description : verify that SeleniumRuby Product Price Is 500
+	 * @return : return true if product price is displayed else false
+	 * @author : Yaksha
+	 */
+	public Boolean verifythatSeleniumRubyProductPriceIs500() throws Exception {
+		return null;
+	}
+	
+	
+	
+	/**@Test13
+	 * about this method verifythatSeleniumRubyProductQuantityIsOne() 
+	 * @param : null
+	 * @description : verify that SeleniumRuby Product Quantity Is One
+	 * @return : return true if product quantity is displayed else false
+	 * @author : Yaksha
+	 */
+	public Boolean verifythatSeleniumRubyProductQuantityIsOne() throws Exception {
+		return null;
+	}
+	
+	
+	
+	/**@Test14
+	 * about this method verifythatSeleniumrubyProductTotalPriceIs500() 
+	 * @param : null
+	 * @description : verify that Selenium ruby Product Total Price Is 500.
+	 * @return : return true if product total price is displayed else false
+	 * @author : Yaksha
+	 */
+	public Boolean verifythatSeleniumrubyProductTotalPriceIs500() throws Exception {
+		return null;
+	}
+	
+	
+	/**@Test15
+	 * about this method verifythatSubTotalAndTaxAndTotalFieldHasContainsAmount() 
+	 * @param : null
+	 * @description : verify that SubTotal And Tax And Total Field Contains Amount
+	 * @return : return true if product total amount is displayed else false
+	 * @author : Yaksha
+	 */
+	public Boolean verifythatSubTotalAndTaxAndTotalFieldHasContainsAmount() throws Exception {
+		return null;
+	}
+
 	
 	
 	
