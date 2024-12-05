@@ -6,22 +6,46 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ShoppingCartAutomationPages extends StartupPage
 {
-	By shopOption = By.xpath(""); 
-	By cartMenuButton = By.xpath(""); 
-	By automationPracticeSiteLogo = By.xpath(""); 
-	By newArrivalButton = By.xpath(""); 
-	By seleniumRubyProduct = By.xpath(""); 
-	By thinkingInHtmlProduct = By.xpath(""); 
-	By masteringJavaScriptProduct = By.xpath(""); 
-	By addToBasketButton = By.xpath(""); 
-	By productAddedMessage = By.xpath(""); 
-	By viewBasketButton = By.xpath("");  
-	By seleniumRubyInsideTheBasketPage = By.xpath(""); 
-	By couponcodeField = By.xpath(""); 
-	By applyCouponcodeButton = By.xpath("");  
-	By priceReadOnyField = By.xpath(""); 
-	By quantityField= By.xpath(""); 
-	By totalField= By.xpath(""); 
+	By shopOption = By.xpath(" ");
+	By cartMenuButton = By.xpath(" "); 
+	By automationPracticeSiteLogo = By.xpath(" "); 
+	By newArrivalButton = By.xpath("  "); 
+	By seleniumRubyProduct = By.xpath("  "); 
+	By thinkingInHtmlProduct = By.xpath("  "); 
+	By masteringJavaScriptProduct = By.xpath("  "); 
+	By addToBasketButton = By.xpath("  "); 
+	By productAddedMessage = By.xpath("  "); 
+	By viewBasketButton = By.xpath("  "); 
+	By seleniumRubyInsideTheBasketPage = By.xpath("  "); 
+	By couponcodeField = By.xpath("  "); 
+	By applyCouponcodeButton = By.xpath("  "); 
+	By priceReadOnlyField = By.xpath("  "); 
+	By quantityField= By.xpath("  "); 
+	By totalField= By.xpath("  "); 
+	By removeIcon= By.xpath("  "); 
+	By removeMessage= By.xpath("  "); 
+	By proceedToCheckoutButton= By.xpath("  "); 
+	By increasedProductInCart= By.xpath("  "); 	
+	By myAccountIcon= By.xpath("  "); 
+	By usernameTextField= By.id("  "); 
+	By passwordTextField= By.id("  "); 
+	By loginButton= By.xpath("  "); 
+	By emailAddressTextField= By.id("  "); 
+	By registerButton= By.xpath("  "); 
+	By passwordTextFieldInRegister=By.id("  ");	
+	By testCasesIcon=By.xpath("  ");
+	By atSiteIcon=By.xpath("  ");
+	By seleniumText=By.xpath("  ");
+	By appiumText=By.xpath("  ");
+	By refineByField=By.xpath("  ");
+	By homeShopMenu=By.xpath("  ");
+	By filterByPriceSlider=By.xpath("  ");
+	By seleniumRubyProductPrice=By.xpath("  ");
+	By quantity=By.xpath("//div[@class=\"  ");
+	By productTotalPrice=By.xpath("  ");
+	By subTotalAmount=By.xpath("  ");
+	By taxAmount=By.xpath("  ");	
+	By totalAmount=By.xpath("  ");
 
 	public ShoppingCartAutomationPages(WebDriver driver) 
 	{
