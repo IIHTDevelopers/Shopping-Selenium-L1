@@ -187,45 +187,4 @@ public class ShoppingCartAutomationPages extends StartupPage
 		return null;
 	}
 	
-	
-	
-	/**@Test13
-	 * about this method verifythatSeleniumRubyProductQuantityIsOne() : Verify that selenium ruby product quantity is one
-	 * @param : null
-	 * @description : verify that SeleniumRuby Product Quantity Is One
-	 * @return : return true if product quantity is displayed else false
-	 * @author : Yaksha
-	 */
-	public Boolean verifythatSeleniumRubyProductQuantityIsOne() throws Exception {
-		return null;
-	}
-	
-	
-	
-	/**@Test14
-	 * about this method verifythatSeleniumrubyProductTotalPriceIs500() : Verify that selenium ruby product total price is 500
-	 * @param : null
-	 * @description : verify that Selenium ruby Product Total Price Is 500.
-	 * @return : return true if product total price is displayed else false
-	 * @author : Yaksha
-	 */
-	public Boolean verifythatSeleniumrubyProductTotalPriceIs500() throws Exception {
-		return null;
-	}
-	
-	
-	/**@Test15
-	 * about this method verifythatSubTotalAndTaxAndTotalFieldHasContainsAmount() : Verify that SubTotal,Tax and Total fieled has contains amount as per the selenium ruby product
-	 * @param : null
-	 * @description : verify that SubTotal And Tax And Total Field Contains Amount
-	 * @return : return true if product total amount is displayed else false
-	 * @author : Yaksha
-	 */
-	public Boolean verifythatSubTotalAndTaxAndTotalFieldHasContainsAmount() throws Exception {
-		return null;
-	}
-
-	
-	
-	
 }
