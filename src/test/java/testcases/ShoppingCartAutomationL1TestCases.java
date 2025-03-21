@@ -42,7 +42,7 @@ public class ShoppingCartAutomationL1TestCases extends AppTestBase
 			practiceAutomationInstance= new ShoppingCartAutomationPages(driver);
 			Map<String, String> expectedData = new FileOperations().readExcelPOI(expectedDataFilePath, "homepage");
 			Assert.assertEquals(practiceAutomationInstance.verifyNavigateTotTheShoppingCartpage(), expectedData.get("homepageTitle"));
-			Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "shop option menu is not present in the current page, Please check manually");
+			// Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "shop option menu is not present in the current page, Please check manually");
 	}
 		@Test(priority = 2, groups = {"sanity"}, description="Check Shop Menu Option is present or not")
 		public void checkShopMenuIsPresent() throws Exception {
